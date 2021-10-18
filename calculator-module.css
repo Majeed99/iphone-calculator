@@ -1,0 +1,64 @@
+body,
+html,
+head,
+.page {
+  /* padding: 10% 20%; */
+
+  background-color: black;
+}
+.grid {
+  width: 350px;
+  margin: auto;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 80px 80px 80px 80px;
+  margin-top: 10px;
+  /* grid-template-areas: "num num num num"
+  "num num num num"
+  "num num num num"
+  ; */
+}
+.zero {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+#input {
+  background-color: black;
+  border: 2px gray solid;
+  margin: 0.5% auto;
+  width: 350px;
+  display: flex;
+  color: white;
+  font-size: larger;
+}
+#input2 {
+  background-color: black;
+  border: 2px gray solid;
+  margin: 0.5% auto;
+  width: 350px;
+  display: flex;
+  color: white;
+  font-size: larger;
+}
+.num {
+  height: 80px;
+  border-radius: 50px;
+  border: 0px;
+  background-color: rgb(73, 56, 45);
+  color: white;
+  font-size: xx-large;
+}
+.opp {
+  background-color: orange;
+}
+h1,
+h3 {
+  width: max-content;
+  margin: auto;
+  color: rgb(238, 211, 176);
+}
+h5 {
+  width: max-content;
+  margin: auto;
+  color: rgba(255, 0, 0, 0.849);
+}
